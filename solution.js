@@ -1,4 +1,4 @@
-var tabla = ///from the table that I will create   
+var tabla = prompt("ann")
 function maketable() {
     // vincula al cuerpo de html
     var div1 = document.getElementById('div1');
@@ -33,4 +33,4 @@ function maketable() {
     
     div1.appendChild(tbl); // tabla adentro del div
 }
-window.onload=drawTable; 
+window.onload=maketable; 
