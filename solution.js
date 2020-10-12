@@ -1,4 +1,4 @@
-var tabla = prompt("ann")
+var tabla = ///changes
 function maketable() {
     // vincula al cuerpo de html
     var div1 = document.getElementById('div1');
