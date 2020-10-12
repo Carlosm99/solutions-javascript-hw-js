@@ -57,11 +57,11 @@ form {
 input{
     transition: width 0.4s ease-in-out;
     background-color: white;
-    width: 5%;
+    width: 2%;
     background-position: 10px 10px;
     background-repeat: no-repeat;
-    padding-left: 40px;
+    padding-left: 0px;
 }
 input:focus {
-    width: 10%;
+    width: 5%;
   }

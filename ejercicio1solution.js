@@ -1,5 +1,13 @@
-var tabla = ///changes
-function maketable() {
+
+
+ejecutartodo.onclick = function() {
+    
+    var tablas = document.getElementById('valorn').value;
+    maketable(tablas);
+    return false;
+  };
+
+function maketable(tabla) {
     // vincula al cuerpo de html
     var div1 = document.getElementById('div1');
 
@@ -27,10 +35,11 @@ function maketable() {
            row.appendChild(cell);
            tbl.appendChild(row);      //suma lo que se vaya agregando
         }      
-        
+       
         
     }
     
-    div1.appendChild(tbl); // tabla adentro del div
+    div1.appendChild(tbl) + " &nbsp; &nbsp; "; // tabla adentro del div
+    maketable = function(){}; 
 }
-window.onload=maketable; 
+ 
