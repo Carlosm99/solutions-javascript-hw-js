@@ -26,11 +26,13 @@ function maketable(tabla) {
             var cellText = document.createTextNode([r][c]="1");
             
             cell.appendChild(cellText);
+            cell.style.borderWidth = "4px"
             }         
             if (r != c){
             var cellText = document.createTextNode([r][c]="0");
             
             cell.appendChild(cellText);
+            
             } 
            row.appendChild(cell);
            tbl.appendChild(row);      //suma lo que se vaya agregando

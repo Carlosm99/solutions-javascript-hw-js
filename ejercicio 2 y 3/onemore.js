@@ -82,8 +82,8 @@ function maketablesuperior(tabla) {
             
             
             cell.appendChild(cellText);
-            cell.style.color = "blue";
-            cell.style.backgroundColor = "yellow";
+            cell.style.color = "black";
+            cell.style.backgroundColor = "Green";
             cell.style.borderWidth = "13px"
             }         
             else{
